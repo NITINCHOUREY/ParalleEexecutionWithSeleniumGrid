@@ -1,0 +1,4 @@
+cd/
+E:
+cd E:\work\Grid
+java -jar -Dwebdriver.chrome.driver="C:\Users\NITIN\eclipse-workspace\SeleniumGrid_ParellelExecution\drivers\chromedriver_win32\chromedriver.exe" -Dwebdriver.gecko.driver="C:\Users\NITIN\eclipse-workspace\SeleniumGrid_ParellelExecution\drivers\geckodriver-v0.24.0-win64\geckodriver.exe" -Dwebdriver.ie.driver="C:\Users\NITIN\eclipse-workspace\SeleniumGrid_ParellelExecution\drivers\IEDriverServer_x64_3.14.0\IEDriverServer.exe" -Dwebdriver.edge.driver="C:\Users\NITIN\eclipse-workspace\SeleniumGrid_ParellelExecution\drivers\edgedriver_win64\msedgedriver.exe" selenium-server-standalone-3.141.59.jar -role node -hub http://172.25.210.17:4444/grid/register -nodeConfig C:\Users\NITIN\eclipse-workspace\SeleniumGrid_ParellelExecution\Json_config_File\node_config.JSON
